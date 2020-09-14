@@ -44,7 +44,7 @@
   - Fazer o clone do projeto em algum diretório da sua preferência
   - Entrar na pasta raiz do projeto através do comando "cd Topicos_Avancados"
   - Na pasta raiz executar o comando "docker-compose up"
-  - Acessar a rota http://locahost:5001/getFilme/{algum número de 1 a 9}
+  - Acessar a rota http://localhost:5001/getFilme/{algum número de 1 a 9}
   - Os números de 1 a 9 são os números de cada grupo que participa do Projeto Integrador
   
   - Adicionalmente foi incluído o SonarQube no projeto para análise de código, o container está preparado para iniciar em conjunto com o docker-compose e fica disponível em http://localhost:9000, os dados de acesso são login: admin e senha: admin (padrão do Sonar). Para ver a execução da análise é preciso seguir os passos do link https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/ e instalar o Sonar Scanner correspondente ao sistema operacional.
