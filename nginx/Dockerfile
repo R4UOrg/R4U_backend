@@ -5,7 +5,7 @@ FROM nginx
 RUN rm /etc/nginx/conf.d/default.conf
 
 # Replace with our own nginx.conf
-COPY nginx.conf /etc/nginx/conf.d
+COPY nginx.conf /etc/nginx/conf.d/
 
 # Replace the  default index page
 RUN rm /usr/share/nginx/html/index.html
