@@ -15,5 +15,5 @@ test_consultaNome
     My Keyword    ${NOME}
 
 test_consultaGenero
-    Should Be Equal    ${GENERO}    Hello, world!
+    Should Be Equal    ${GENERO}    Drama
 
