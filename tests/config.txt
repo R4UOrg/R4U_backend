@@ -1,0 +1,19 @@
+*** Settings ***
+Documentation     Testes do R4U.
+Library           OperatingSystem
+
+*** Variables ***
+${TABLE}        FILME_TEST
+${NOME}			Joker
+${GENERO}       Drama
+${MESSAGE}		Consulta
+
+*** Test Cases ***
+test_consultaNome
+    [Documentation]    Teste para saber se um filme existe no banco.
+    Log    ${MESSAGE}
+    My Keyword    ${NOME}
+
+test_consultaGenero
+    Should Be Equal    ${GENERO}    Hello, world!
+
